@@ -39,7 +39,9 @@ export const UrlModal = ({ targetUrl, setTargetUrl }) => {
           </Modal.Footer>
         </Modal>
       </div>
-      <pre className="d-flex justify-content-center align-items-center">Base URL is: {targetUrl}</pre>
+      <pre className="d-flex justify-content-center align-items-center">
+        Base URL is: {targetUrl}
+      </pre>
     </>
   );
 };

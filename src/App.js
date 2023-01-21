@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
       <UrlModal targetUrl={targetUrl} setTargetUrl={setTargetUrl} />
-      <Body></Body>
+      <Body targetUrl={targetUrl}></Body>
     </>
   );
 };
