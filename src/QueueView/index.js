@@ -57,8 +57,8 @@ export const QueueView = ({ targetUrl }) => {
 
       <div>
         <p>Created Queues:</p>
-        {createdQueues.map((queue) => (
-          <p>
+        {createdQueues.map((queue, key) => (
+          <p key={key}>
             {queue.queueKey} | {queue.queueType}
           </p>
         ))}
