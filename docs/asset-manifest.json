@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sse-mq-example/static/css/main.44f8b8b5.css",
+    "main.js": "/sse-mq-example/static/js/main.67b120ce.js",
+    "index.html": "/sse-mq-example/index.html",
+    "main.44f8b8b5.css.map": "/sse-mq-example/static/css/main.44f8b8b5.css.map",
+    "main.67b120ce.js.map": "/sse-mq-example/static/js/main.67b120ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44f8b8b5.css",
+    "static/js/main.67b120ce.js"
+  ]
+}
