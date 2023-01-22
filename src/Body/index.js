@@ -3,6 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { QueueView } from "../QueueView";
 import { ProducerView } from "../ProducerView";
+import { ConsumerView } from "../ConsumerView";
 
 export const Body = ({ targetUrl }) => {
   return (
@@ -14,7 +15,9 @@ export const Body = ({ targetUrl }) => {
         <Col style={{ border: "3px solid blue" }}>
           <ProducerView targetUrl={targetUrl} />
         </Col>
-        <Col xs={8}>3 of 3 (wider)</Col>
+        <Col style={{ border: "3px solid blue" }} xs={8}>
+          <ConsumerView targetUrl={targetUrl} />
+        </Col>
       </Row>
     </Container>
   );

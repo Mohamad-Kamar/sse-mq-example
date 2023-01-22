@@ -17,7 +17,6 @@ export const ProducerView = ({ targetUrl }) => {
       },
       body: JSON.stringify(messageProps),
     }).then((res) => {
-      console.log(messageProps);
       if (res.status !== 201) return setErrorMessage("An error Occurred");
       setCreatedMessages([...createdMessages, messageProps]);
       setErrorMessage("");
